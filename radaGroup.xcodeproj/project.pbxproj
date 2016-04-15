@@ -13,6 +13,20 @@
 		D20EA0D81CC0D06200556020 /* radaGroup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0D61CC0D06200556020 /* radaGroup.xcdatamodeld */; };
 		D20EA0DA1CC0D06200556020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20EA0D91CC0D06200556020 /* Assets.xcassets */; };
 		D20EA0DD1CC0D06200556020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20EA0DB1CC0D06200556020 /* LaunchScreen.storyboard */; };
+		D20EA0E81CC0D0DA00556020 /* FeedChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0E41CC0D0DA00556020 /* FeedChannel.swift */; };
+		D20EA0E91CC0D0DA00556020 /* FeedEnclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0E51CC0D0DA00556020 /* FeedEnclosure.swift */; };
+		D20EA0EA1CC0D0DA00556020 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0E61CC0D0DA00556020 /* FeedItem.swift */; };
+		D20EA0EB1CC0D0DA00556020 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0E71CC0D0DA00556020 /* FeedParser.swift */; };
+		D20EA0EE1CC0D0E300556020 /* NSDate+FeedsDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0EC1CC0D0E300556020 /* NSDate+FeedsDate.swift */; };
+		D20EA0EF1CC0D0E300556020 /* String+RemoveHTMLCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0ED1CC0D0E300556020 /* String+RemoveHTMLCharacters.swift */; };
+		D20EA0F41CC0D11800556020 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = D20EA0F21CC0D11800556020 /* Icon */; };
+		D20EA0F51CC0D11800556020 /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0F31CC0D11800556020 /* Publication.swift */; };
+		D20EA0F91CC0D13600556020 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0F81CC0D13600556020 /* SWRevealViewController.m */; };
+		D20EA0FB1CC0D14800556020 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0FA1CC0D14800556020 /* MapViewController.swift */; };
+		D20EA0FD1CC0D15900556020 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0FC1CC0D15900556020 /* NewsTableViewCell.swift */; };
+		D20EA1001CC0D1F500556020 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0FF1CC0D1F500556020 /* NewsTableViewController.swift */; };
+		D20EA1021CC0D21300556020 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA1011CC0D21300556020 /* PhotoViewController.swift */; };
+		D20EA1061CC0D2A100556020 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20EA1051CC0D2A100556020 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,22 @@
 		D20EA0D91CC0D06200556020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D20EA0DC1CC0D06200556020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D20EA0DE1CC0D06200556020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20EA0E41CC0D0DA00556020 /* FeedChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedChannel.swift; sourceTree = "<group>"; };
+		D20EA0E51CC0D0DA00556020 /* FeedEnclosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedEnclosure.swift; sourceTree = "<group>"; };
+		D20EA0E61CC0D0DA00556020 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		D20EA0E71CC0D0DA00556020 /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		D20EA0EC1CC0D0E300556020 /* NSDate+FeedsDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+FeedsDate.swift"; sourceTree = "<group>"; };
+		D20EA0ED1CC0D0E300556020 /* String+RemoveHTMLCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RemoveHTMLCharacters.swift"; sourceTree = "<group>"; };
+		D20EA0F21CC0D11800556020 /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		D20EA0F31CC0D11800556020 /* Publication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		D20EA0F61CC0D13600556020 /* radaGroup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "radaGroup-Bridging-Header.h"; sourceTree = "<group>"; };
+		D20EA0F71CC0D13600556020 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D20EA0F81CC0D13600556020 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D20EA0FA1CC0D14800556020 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D20EA0FC1CC0D15900556020 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		D20EA0FF1CC0D1F500556020 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		D20EA1011CC0D21300556020 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D20EA1051CC0D2A100556020 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20EA1061CC0D2A100556020 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,7 @@
 		D20EA0C31CC0D06100556020 = {
 			isa = PBXGroup;
 			children = (
+				D20EA1051CC0D2A100556020 /* MapKit.framework */,
 				D20EA0CE1CC0D06200556020 /* radaGroup */,
 				D20EA0CD1CC0D06200556020 /* Products */,
 			);
@@ -56,15 +88,71 @@
 		D20EA0CE1CC0D06200556020 /* radaGroup */ = {
 			isa = PBXGroup;
 			children = (
-				D20EA0CF1CC0D06200556020 /* AppDelegate.swift */,
-				D20EA0D11CC0D06200556020 /* ViewController.swift */,
+				D20EA0F01CC0D0E700556020 /* feedParser */,
+				D20EA0F11CC0D11800556020 /* Model */,
+				D20EA1031CC0D21900556020 /* Controllers */,
+				D20EA0FE1CC0D1CE00556020 /* Cells */,
+				D20EA1041CC0D23900556020 /* Supporting Files */,
 				D20EA0D31CC0D06200556020 /* Main.storyboard */,
+			);
+			path = radaGroup;
+			sourceTree = "<group>";
+		};
+		D20EA0F01CC0D0E700556020 /* feedParser */ = {
+			isa = PBXGroup;
+			children = (
+				D20EA0EC1CC0D0E300556020 /* NSDate+FeedsDate.swift */,
+				D20EA0ED1CC0D0E300556020 /* String+RemoveHTMLCharacters.swift */,
+				D20EA0E41CC0D0DA00556020 /* FeedChannel.swift */,
+				D20EA0E51CC0D0DA00556020 /* FeedEnclosure.swift */,
+				D20EA0E61CC0D0DA00556020 /* FeedItem.swift */,
+				D20EA0E71CC0D0DA00556020 /* FeedParser.swift */,
+			);
+			name = feedParser;
+			sourceTree = "<group>";
+		};
+		D20EA0F11CC0D11800556020 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D20EA0F21CC0D11800556020 /* Icon */,
+				D20EA0F31CC0D11800556020 /* Publication.swift */,
+			);
+			name = Model;
+			path = "Model copy";
+			sourceTree = "<group>";
+		};
+		D20EA0FE1CC0D1CE00556020 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D20EA0FC1CC0D15900556020 /* NewsTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		D20EA1031CC0D21900556020 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D20EA0D11CC0D06200556020 /* ViewController.swift */,
+				D20EA0FA1CC0D14800556020 /* MapViewController.swift */,
+				D20EA0F71CC0D13600556020 /* SWRevealViewController.h */,
+				D20EA0F81CC0D13600556020 /* SWRevealViewController.m */,
+				D20EA0FF1CC0D1F500556020 /* NewsTableViewController.swift */,
+				D20EA1011CC0D21300556020 /* PhotoViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D20EA1041CC0D23900556020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D20EA0CF1CC0D06200556020 /* AppDelegate.swift */,
 				D20EA0D91CC0D06200556020 /* Assets.xcassets */,
 				D20EA0DB1CC0D06200556020 /* LaunchScreen.storyboard */,
 				D20EA0DE1CC0D06200556020 /* Info.plist */,
 				D20EA0D61CC0D06200556020 /* radaGroup.xcdatamodeld */,
+				D20EA0F61CC0D13600556020 /* radaGroup-Bridging-Header.h */,
 			);
-			path = radaGroup;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +217,7 @@
 				D20EA0DD1CC0D06200556020 /* LaunchScreen.storyboard in Resources */,
 				D20EA0DA1CC0D06200556020 /* Assets.xcassets in Resources */,
 				D20EA0D51CC0D06200556020 /* Main.storyboard in Resources */,
+				D20EA0F41CC0D11800556020 /* Icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +228,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20EA0EE1CC0D0E300556020 /* NSDate+FeedsDate.swift in Sources */,
 				D20EA0D21CC0D06200556020 /* ViewController.swift in Sources */,
+				D20EA0E81CC0D0DA00556020 /* FeedChannel.swift in Sources */,
+				D20EA0EA1CC0D0DA00556020 /* FeedItem.swift in Sources */,
+				D20EA0FD1CC0D15900556020 /* NewsTableViewCell.swift in Sources */,
+				D20EA0EB1CC0D0DA00556020 /* FeedParser.swift in Sources */,
+				D20EA0E91CC0D0DA00556020 /* FeedEnclosure.swift in Sources */,
+				D20EA0F51CC0D11800556020 /* Publication.swift in Sources */,
+				D20EA0FB1CC0D14800556020 /* MapViewController.swift in Sources */,
 				D20EA0D81CC0D06200556020 /* radaGroup.xcdatamodeld in Sources */,
+				D20EA0F91CC0D13600556020 /* SWRevealViewController.m in Sources */,
 				D20EA0D01CC0D06200556020 /* AppDelegate.swift in Sources */,
+				D20EA1001CC0D1F500556020 /* NewsTableViewController.swift in Sources */,
+				D20EA0EF1CC0D0E300556020 /* String+RemoveHTMLCharacters.swift in Sources */,
+				D20EA1021CC0D21300556020 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,10 +357,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = radaGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ios.my.radaGroup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "radaGroup/radaGroup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -267,10 +371,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = radaGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ios.my.radaGroup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "radaGroup/radaGroup-Bridging-Header.h";
 			};
 			name = Release;
 		};
