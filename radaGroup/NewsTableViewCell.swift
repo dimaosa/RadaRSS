@@ -13,7 +13,7 @@ class NewsTableViewCell: UITableViewCell {
     @IBOutlet weak var authorImageView:UIImageView!
     @IBOutlet weak var postTitleLabel:UILabel!
     @IBOutlet weak var authorLabel:UILabel!
-    
+    @IBOutlet weak var dateLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

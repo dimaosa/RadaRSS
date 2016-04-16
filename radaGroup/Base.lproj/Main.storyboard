@@ -93,13 +93,18 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="an hour ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ada-K5-1uf">
-                                            <rect key="frame" x="48" y="217" width="78" height="21"/>
+                                            <rect key="frame" x="48" y="217" width="66.5" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="78" id="aEs-mP-o49"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="aEs-mP-o49"/>
+                                                </mask>
+                                            </variation>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9G-bH-aLs">
                                             <rect key="frame" x="48" y="201" width="339" height="21"/>
@@ -138,6 +143,7 @@
                                 <connections>
                                     <outlet property="authorImageView" destination="lag-i9-C5U" id="QL0-Q6-9aY"/>
                                     <outlet property="authorLabel" destination="l9G-bH-aLs" id="DJN-pc-W0t"/>
+                                    <outlet property="dateLabel" destination="ada-K5-1uf" id="gKu-uT-VRa"/>
                                     <outlet property="postImageView" destination="rKe-r2-poV" id="ol2-jf-ynS"/>
                                     <outlet property="postTitleLabel" destination="aYZ-31-aCj" id="EAE-UM-mmi"/>
                                 </connections>
@@ -405,11 +411,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="japanvillage" width="22" height="22"/>
-        <image name="map" width="22" height="22"/>
+        <image name="japanvillage" width="1800" height="1350"/>
+        <image name="map" width="1024" height="1024"/>
         <image name="menu" width="22" height="22"/>
-        <image name="news" width="22" height="22"/>
-        <image name="photo" width="22" height="22"/>
+        <image name="news" width="1024" height="1024"/>
+        <image name="photo" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="AQl-WI-fq8"/>

@@ -27,6 +27,7 @@
 		D20EA1001CC0D1F500556020 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA0FF1CC0D1F500556020 /* NewsTableViewController.swift */; };
 		D20EA1021CC0D21300556020 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EA1011CC0D21300556020 /* PhotoViewController.swift */; };
 		D20EA1061CC0D2A100556020 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20EA1051CC0D2A100556020 /* MapKit.framework */; };
+		D28408731CC0F41E0019999C /* NSDateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28408721CC0F41E0019999C /* NSDateHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		D20EA0FF1CC0D1F500556020 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		D20EA1011CC0D21300556020 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		D20EA1051CC0D2A100556020 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D28408721CC0F41E0019999C /* NSDateHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		D20EA0CE1CC0D06200556020 /* radaGroup */ = {
 			isa = PBXGroup;
 			children = (
+				D28408711CC0F3EC0019999C /* Extensions */,
 				D20EA0F01CC0D0E700556020 /* feedParser */,
 				D20EA0F11CC0D11800556020 /* Model */,
 				D20EA1031CC0D21900556020 /* Controllers */,
@@ -153,6 +156,14 @@
 				D20EA0F61CC0D13600556020 /* radaGroup-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D28408711CC0F3EC0019999C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D28408721CC0F41E0019999C /* NSDateHelpers.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D28408731CC0F41E0019999C /* NSDateHelpers.swift in Sources */,
 				D20EA0EE1CC0D0E300556020 /* NSDate+FeedsDate.swift in Sources */,
 				D20EA0D21CC0D06200556020 /* ViewController.swift in Sources */,
 				D20EA0E81CC0D0DA00556020 /* FeedChannel.swift in Sources */,
@@ -360,7 +372,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = radaGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.my.radaGroup;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.my.radaasdfsadf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "radaGroup/radaGroup-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -374,7 +386,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = radaGroup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ios.my.radaGroup;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.my.radaasdfsadf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "radaGroup/radaGroup-Bridging-Header.h";
 			};
@@ -399,6 +411,7 @@
 				D20EA0E31CC0D06200556020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
